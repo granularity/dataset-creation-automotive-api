@@ -1,11 +1,19 @@
 var years=['1989','1990','1991','1992','1993','1994',
-				   '1995','1996','1997','1998','1999','2000',
-					 '2001','2002','2003','2004','2005','2006',
-					 '2007','2007','2008','2009','2010','2011',
-					 '2012','2013','2014','2015','2016','2017'
+           '1995','1996','1997','1998','1999','2000',
+           '2001','2002','2003','2004','2005','2006',
+           '2007','2007','2008','2009','2010','2011',
+           '2012','2013','2014','2015','2016','2017'
 				    ];
 
-var makes = ['ford','hyundai','honda'];
+var makes = ['acura','alfa romeo','am general','amc', 'audi','bmw','buick',
+             'cadillac','chevrolet','chrysler','daewoo','daihatsu','datsun',
+             'dodge','eagle','fiat','ford','gmc','honda','hummer','hyundai',
+             'infiniti','isuzu','jaguar','jeep','kia','land rover','lexus',
+             'lincoln','mazda','mercedes-benz','mercury','merkur','mini',
+             'mitsubishi','nissan','oldsmobile','peugeot','plymouth','pontiac',
+             'porsche','ram','renault','saab','saturn','smart','sterling',
+             'subaru','suzuki','tesla','toyota','volkswagen','volvo','yugo'];
+						 
 var num_years = years.length;
 var num_makes =  makes.length;
 var i = 0;
